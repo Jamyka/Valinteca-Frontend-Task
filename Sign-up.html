@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="px-3">
+    <div class="container bg-light rounded mx-sm-3">
+        <div class="row py-5 pb-4 px-3">
+            <div class="col-lg-5 col-md-6 col-sm-12 d-flex justify-content-center align-items-center">
+                <img src="signup.png" alt="Logo Image" class="logo-img img-fluid w-auto">
+            </div>
+            <div class="col-lg-7 col-md-6 col-sm-12 d-flex flex-column justify-content-lg-center align-items-lg-start justify-content-sm-center align-items-sm-center 
+            justify-content-center align-items-center
+                my-3">
+                <div class="h1 my-3 fw-bold">Create Account</div>
+                <p class="text-center my-2">
+                    We’re glad you’re here! Enjoy this free prototype made with <a href="https://www.animaapp.com/"
+                        class="text-dark">Anima</a>.
+                </p>
+                <div class="d-grid gap-2 col-12 mx-auto my-3">
+                    <form class="row g-3 needs-validation justify-content-center" novalidate>
+                        <div class="col-8">
+                            <label for="validationCustomUsername" class="form-label">Username</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-person" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6Zm2-3a2 2 0 1 1-4 0 2 2 0 0 1 4 0Zm4 8c0 1-1 1-1 1H3s-1 0-1-1 1-4 6-4 6 3 6 4Zm-1-.004c-.001-.246-.154-.986-.832-1.664C11.516 10.68 10.289 10 8 10c-2.29 0-3.516.68-4.168 1.332-.678.678-.83 1.418-.832 1.664h10Z" />
+                                    </svg>
+
+                                </span>
+                                <input type="text" class="form-control" id="validationCustomUsername"
+                                    aria-describedby="inputGroupPrepend" name="username" required>
+                                <div class="invalid-feedback" id="usernameErrMsg">
+                                    Please Enter a username.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-8">
+                            <label for="validationCustomEmail" class="form-label">Email</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-envelope" viewBox="0 0 16 16">
+                                        <path
+                                            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+                                    </svg>
+
+                                </span>
+                                <input type="email" class="form-control" id="validationCustomEmail" name="email"
+                                    aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback" id="emailErrMsg">
+                                    Please Enter Email.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-8">
+                            <label for="validationCustomPassword" class="form-label">Password</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-lock" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" />
+                                    </svg>
+
+                                </span>
+                                <input type="password" class="form-control" id="validationCustomPassword"
+                                    name="password" aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback" id="passErrMsg">
+                                    Please Enter Passsword.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-8">
+                            <label for="validationConfirmPassword" class="form-label">Confirm Password</label>
+                            <div class="input-group has-validation">
+                                <span class="input-group-text" id="inputGroupPrepend">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                                        class="bi bi-lock" viewBox="0 0 16 16">
+                                        <path
+                                            d="M8 1a2 2 0 0 1 2 2v4H6V3a2 2 0 0 1 2-2zm3 6V3a3 3 0 0 0-6 0v4a2 2 0 0 0-2 2v5a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V9a2 2 0 0 0-2-2zM5 8h6a1 1 0 0 1 1 1v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V9a1 1 0 0 1 1-1z" />
+                                    </svg>
+
+                                </span>
+                                <input type="password" class="form-control" id="validationConfirmPassword"
+                                    name="confirmPassword" aria-describedby="inputGroupPrepend" required>
+                                <div class="invalid-feedback" id="confrimPassErrMsg">
+                                    Please Confirm Passsword.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-8">
+                            <!-- <button class="btn btn-primary" type="submit">Submit form</button> -->
+                            <button class="btn btn-primary cust-btn w-100 mt-3 py-2" id="sign-up" type="submit">Get
+                                Started</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
